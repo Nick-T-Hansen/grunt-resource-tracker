@@ -35,6 +35,12 @@
       "link": "resource6link",
       "type": "Article",
       "id": 6
+    },
+    {
+      "name": "newresource",
+      "link": "newlink",
+      "type": "Video",
+      "id": 7
     }
   ]
 }

@@ -1,8 +1,10 @@
+// This module is responsible for taking data, building out DOM components and returning those components.
+
 const domBuilder = {
+  name: "Dom Builder Component",
   // appendInputForm : function() {
   //   console.log("Hello");
   // }
-  name: "Dom Builder Component",
   appendInputForm () {
     let formContainer = document.querySelector("#form-container");
 
@@ -36,6 +38,14 @@ const domBuilder = {
     const articlesContainer = domComponents.createDomElement("article", null, "resource-container");
     articlesContainer.setAttribute("id", "articles-container");
     divContainer.appendChild(articlesContainer);
+  },
+  appendAllResources (fragmentsObj) {
+    let articlesContainer = document.querySelector("#articles-container");
+    let videosContainer = document.querySelector("#videos-container");
+    articlesContainer.innerHTML = "";
+    videosContainer.innerHTML = "";
+    articlesContainer.appendChild(fragmentsObj.articles);
+    videosContainer.appendChild(fragmentsObj.videos);
   }
 };
 
