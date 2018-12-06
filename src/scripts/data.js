@@ -7,5 +7,9 @@ const data = {
     //   response.json();
     // })
     .then(response => response.json());
+  },
+  queryResources(userInput) {
+    return fetch(`http://localhost:8088/resources?q=${userInput}`)
+    .then(response => response.json());
   }
 };

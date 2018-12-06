@@ -60,7 +60,7 @@ const domBuilder = {
 
     let searchButton = domComponents.createDomElement("button", "Search", null);
     searchButton.setAttribute("id", "search-button");
-    // searchButton.addEventListener("click", eventListeners.handleSearchButton);
+    searchButton.addEventListener("click", eventListeners.handleSearchButton);
     searchContainer.appendChild(searchButton);
 
     divContainer.appendChild(searchContainer);
