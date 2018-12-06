@@ -1,46 +1,64 @@
 {
   "resources": [
     {
-      "name": "resource1name",
-      "link": "resource1link",
+      "name": "What's an Object in JavaScript?",
+      "link": "https://www.youtube.com/watch?v=8iXoWC9XcU8",
       "type": "Video",
       "id": 1
     },
     {
-      "name": "resource2name",
-      "link": "resource2link",
+      "name": "Javascript - How to Access Javascript Object Property Names Using A for in LOOP",
+      "link": "https://www.youtube.com/watch?v=fDBuAnu0fvo",
       "type": "Video",
       "id": 2
     },
     {
-      "name": "resource3name",
-      "link": "resource3link",
+      "name": "What the Function: Introduction to Javascript Functions - 1 of 3",
+      "link": "https://www.youtube.com/watch?v=hVHl20w0glE",
       "type": "Video",
       "id": 3
     },
     {
-      "name": "resource4name",
-      "link": "resource4link",
-      "type": "Article",
+      "name": "ES6 Arrow Functions in JavaScript tutorial",
+      "link": "https://www.youtube.com/watch?v=_pfXEv9cFGE",
+      "type": "Video",
       "id": 4
     },
     {
-      "name": "resource5name",
-      "link": "resource5link",
-      "type": "Article",
+      "name": "Basic JavaScript Event Listeners",
+      "link": "https://www.youtube.com/watch?v=4XvM096cQF4&list=PLX0ucpUE_qIOUsxGNEPpP9yonb4zerVIC&index=3",
+      "type": "Video",
       "id": 5
     },
     {
-      "name": "resource6name",
-      "link": "resource6link",
-      "type": "Article",
+      "name": "Environment, Scope and Closures in JS / Intro to JavaScript ES6 programming",
+      "link": "https://www.youtube.com/watch?v=LhSCEWHazAU",
+      "type": "Video",
       "id": 6
     },
     {
-      "name": "newresource",
-      "link": "newlink",
-      "type": "Video",
+      "name": "Using Fetch",
+      "link": "https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API/Using_Fetch",
+      "type": "Article",
       "id": 7
+    },
+    {
+      "name": "for...of vs for...in Loops",
+      "link": "https://alligator.io/js/for-of-for-in-loops/",
+      "type": "Article",
+      "id": 8
+    },
+    {
+      "name": "Creating Elements",
+      "link": "http://www.htmldog.com/guides/javascript/advanced/creatingelements/",
+      "type": "Article",
+      "id": 9
+    },
+    {
+      "name": "Github: Git Cheat Sheet",
+      "link": "https://services.github.com/on-demand/downloads/github-git-cheat-sheet.pdf",
+      "type": "Article",
+      "id": 10
     }
   ]
 }
