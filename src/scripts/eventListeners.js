@@ -6,7 +6,9 @@ const eventListeners = {
     data.queryResources(searchQuery)
     .then(searchResultsArray => {
       console.log(searchResultsArray);
-    })
-
+      let resourcesFragments = domComponents.createResourcesDocumentFragments(searchResultsArray);
+      console.log(resourcesFragments);
+      domBuilder.appendAllResources(resourcesFragments);
+    });
   }
 };
